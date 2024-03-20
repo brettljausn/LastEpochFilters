@@ -2728,6 +2728,21 @@
       <nameOverride>Choose Affixes your build needs</nameOverride>
     </Rule>
     <Rule>
+      <type>SHOW</type>
+      <conditions>
+        <Condition i:type="RarityCondition">
+          <rarity>UNIQUE SET EXALTED</rarity>
+        </Condition>
+      </conditions>
+      <color>0</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride />
+    </Rule>
+    <Rule>
       <type>HIDE</type>
       <conditions>
         <Condition i:type="RarityCondition">
@@ -2763,21 +2778,6 @@
             <EquipmentType>ONE_HANDED_SCEPTRE</EquipmentType>
           </type>
           <subTypes />
-        </Condition>
-      </conditions>
-      <color>0</color>
-      <isEnabled>true</isEnabled>
-      <levelDependent>false</levelDependent>
-      <minLvl>0</minLvl>
-      <maxLvl>0</maxLvl>
-      <emphasized>false</emphasized>
-      <nameOverride />
-    </Rule>
-    <Rule>
-      <type>SHOW</type>
-      <conditions>
-        <Condition i:type="RarityCondition">
-          <rarity>UNIQUE SET EXALTED</rarity>
         </Condition>
       </conditions>
       <color>0</color>
